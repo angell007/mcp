@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "telegram-mcp": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "tsx",
+        "./main.ts"
+      ],
+      "directory": "C:\\Users\\GSS\\Desktop\\MCP\\ts"
+    }
+  }
+}
