@@ -36,7 +36,7 @@ const server = new Server(
 // - root:root : Usuario y contraseña (usuario:contraseña)
 // - localhost:3306 : Dirección del servidor (host:puerto)
 // - test : Nombre de la base de datos
-const databaseUrl = "mysql://root:secret123@172.18.66.46:3307/rid2";
+const databaseUrl = `mysql://${process.env.MCP_HOST || 'localhost'}:${process.env.MCP_PASSWORD || ''}@${process.env.MCP_HOST || 'localhost'}:${process.env.MCP_PORT || '3306'}/${process.env.MCP_DATABASE || ''}`;
 
 const resourceBaseUrl = new URL(databaseUrl);
 resourceBaseUrl.protocol = "mysql:";
