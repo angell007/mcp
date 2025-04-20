@@ -7,10 +7,6 @@
         "tsx",
         "./main.ts"
       ],
-      "port": 3000,
-      "host": "localhost",
-      "password": "",
-      "database": "",
       "directory": "C:\\Users\\GSS\\Desktop\\MCP\\ts"
     }
   }

@@ -1,15 +1,14 @@
 {
-  "name": "ts",
+  "name": "mcp-dbrequest",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Servidor MCP personalizado para requests a DB",
   "type": "module",
+  "bin": {
+    "mcp-dbrequest": "main.ts"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start:mcp": "mcp-inspector tsx main.ts"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.10.1",
     "mysql2": "^3.14.0"
@@ -17,5 +16,6 @@
   "devDependencies": {
     "@types/node": "^22.14.1",
     "tsx": "^4.19.3"
-  }
+  },
+  "license": "ISC"
 }
