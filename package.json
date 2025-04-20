@@ -4,7 +4,7 @@
   "description": "Servidor MCP personalizado para requests a DB",
   "type": "module",
   "bin": {
-    "mcp-dbrequest": "main.ts"
+     "mcp-dbrequest": "cli.js"
   },
   "scripts": {
     "start:mcp": "mcp-inspector tsx main.ts"
